@@ -1,0 +1,963 @@
+Tiad_sample
+v7
+r0
+t318338201.485703
+cCheck dependencies
+cProcessInfoPlistFile /Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/iad_sample.app/Info.plist iad_sample-Info.plist
+cCompileXIB /Users/anurag/Desktop/iad_sample/MainWindow.xib
+cCompileXIB /Users/anurag/Desktop/iad_sample/RootViewController.xib
+cProcessPCH /var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iad_sample_Prefix-dkolemrbxbseotaldiksyhwepvod/iad_sample_Prefix.pch.gch iad_sample_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/main.o /Users/anurag/Desktop/iad_sample/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/iad_sampleAppDelegate.o /Users/anurag/Desktop/iad_sample/Classes/iad_sampleAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/RootViewController.o /Users/anurag/Desktop/iad_sample/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLDocument_CreationExtensions.o /Users/anurag/Desktop/iad_sample/Creation/CXMLDocument_CreationExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLNode_CreationExtensions.o /Users/anurag/Desktop/iad_sample/Creation/CXMLNode_CreationExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLDocument_PrivateExtensions.o /Users/anurag/Desktop/iad_sample/CXMLDocument_PrivateExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLDocument.o /Users/anurag/Desktop/iad_sample/CXMLDocument.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLElement_CreationExtensions.o /Users/anurag/Desktop/iad_sample/CXMLElement_CreationExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLElement_ElementTreeExtensions.o /Users/anurag/Desktop/iad_sample/CXMLElement_ElementTreeExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLElement.o /Users/anurag/Desktop/iad_sample/CXMLElement.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLNode_PrivateExtensions.o /Users/anurag/Desktop/iad_sample/CXMLNode_PrivateExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLNode_XPathExtensions.o /Users/anurag/Desktop/iad_sample/CXMLNode_XPathExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLNode.o /Users/anurag/Desktop/iad_sample/CXMLNode.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CTidy.o /Users/anurag/Desktop/iad_sample/Tidy/CTidy.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/iad_sample.app/iad_sample normal i386
+cGenerateDSYMFile /Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/iad_sample.app.dSYM /Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/iad_sample.app/iad_sample
+cTouch /Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/iad_sample.app
+
+N/Developer/Extra Libraries/TouchXML_1.0.8_Release/TouchXML/Common/Source/CXMLDocument.h
+c000000004BD1C1580000000000000A9A
+t1272037720
+s2714
+i"CXMLNode.h"
+
+N/Developer/Extra Libraries/TouchXML_1.0.8_Release/TouchXML/Common/Source/CXMLDocument.m
+c000000004BD1C1580000000000001BF7
+t1272037720
+s7159
+i"CXMLDocument.h"
+i<libxml/parser.h>
+i"CXMLNode_PrivateExtensions.h"
+i"CXMLElement.h"
+i"CTidy.h"
+
+N/Developer/Extra Libraries/TouchXML_1.0.8_Release/TouchXML/Common/Source/CXMLDocument_PrivateExtensions.h
+c000000004BD1C15800000000000005FE
+t1272037720
+s1534
+i"CXMLDocument.h"
+i<libxml/parser.h>
+
+N/Developer/Extra Libraries/TouchXML_1.0.8_Release/TouchXML/Common/Source/CXMLDocument_PrivateExtensions.m
+c000000004BD1C158000000000000067A
+t1272037720
+s1658
+i"CXMLDocument_PrivateExtensions.h"
+
+N/Developer/Extra Libraries/TouchXML_1.0.8_Release/TouchXML/Common/Source/CXMLElement.h
+c000000004BD1C158000000000000078C
+t1272037720
+s1932
+i"CXMLNode.h"
+
+N/Developer/Extra Libraries/TouchXML_1.0.8_Release/TouchXML/Common/Source/CXMLElement.m
+c000000004BD1C158000000000000112F
+t1272037720
+s4399
+i"CXMLElement.h"
+i"CXMLNode_PrivateExtensions.h"
+
+N/Developer/Extra Libraries/TouchXML_1.0.8_Release/TouchXML/Common/Source/CXMLElement_CreationExtensions.h
+c000000004BD1C158000000000000059D
+t1272037720
+s1437
+i"CXMLElement.h"
+
+N/Developer/Extra Libraries/TouchXML_1.0.8_Release/TouchXML/Common/Source/CXMLElement_CreationExtensions.m
+c000000004BD1C1580000000000000850
+t1272037720
+s2128
+i"CXMLElement_CreationExtensions.h"
+
+N/Developer/Extra Libraries/TouchXML_1.0.8_Release/TouchXML/Common/Source/CXMLElement_ElementTreeExtensions.h
+c000000004BD1C1580000000000000580
+t1272037720
+s1408
+i"CXMLElement.h"
+
+N/Developer/Extra Libraries/TouchXML_1.0.8_Release/TouchXML/Common/Source/CXMLElement_ElementTreeExtensions.m
+c000000004BD1C1580000000000000668
+t1272037720
+s1640
+i"CXMLElement_ElementTreeExtensions.h"
+i"CXMLElement_CreationExtensions.h"
+i"CXMLNode_CreationExtensions.h"
+
+N/Developer/Extra Libraries/TouchXML_1.0.8_Release/TouchXML/Common/Source/CXMLNode.h
+c000000004BD1C1580000000000000B07
+t1272037720
+s2823
+i<Foundation/Foundation.h>
+i<libxml/tree.h>
+
+N/Developer/Extra Libraries/TouchXML_1.0.8_Release/TouchXML/Common/Source/CXMLNode.m
+c000000004BD1C1580000000000002257
+t1272037720
+s8791
+i"CXMLNode.h"
+i"CXMLNode_PrivateExtensions.h"
+i"CXMLDocument.h"
+i"CXMLElement.h"
+i<libxml/xpath.h>
+i<libxml/xpathInternals.h>
+i<libxml/xmlIO.h>
+
+N/Developer/Extra Libraries/TouchXML_1.0.8_Release/TouchXML/Common/Source/CXMLNode_PrivateExtensions.h
+c000000004BD1C1580000000000000624
+t1272037720
+s1572
+i"CXMLNode.h"
+
+N/Developer/Extra Libraries/TouchXML_1.0.8_Release/TouchXML/Common/Source/CXMLNode_PrivateExtensions.m
+c000000004BD1C1580000000000000A9F
+t1272037720
+s2719
+i"CXMLNode_PrivateExtensions.h"
+i"CXMLElement.h"
+i"CXMLDocument_PrivateExtensions.h"
+
+N/Developer/Extra Libraries/TouchXML_1.0.8_Release/TouchXML/Common/Source/CXMLNode_XPathExtensions.h
+c000000004BD1C15800000000000005FC
+t1272037720
+s1532
+i"CXMLNode.h"
+
+N/Developer/Extra Libraries/TouchXML_1.0.8_Release/TouchXML/Common/Source/CXMLNode_XPathExtensions.m
+c000000004BD1C1580000000000000B1C
+t1272037720
+s2844
+i"CXMLNode_XPathExtensions.h"
+i"CXMLDocument.h"
+i"CXMLNode_PrivateExtensions.h"
+i<libxml/xpath.h>
+i<libxml/xpathInternals.h>
+
+N/Developer/Extra Libraries/TouchXML_1.0.8_Release/TouchXML/Common/Source/Creation/CXMLDocument_CreationExtensions.h
+c000000004BD1C1580000000000000814
+t1272037720
+s2068
+i"CXMLDocument.h"
+
+N/Developer/Extra Libraries/TouchXML_1.0.8_Release/TouchXML/Common/Source/Creation/CXMLDocument_CreationExtensions.m
+c000000004BD1C1580000000000000720
+t1272037720
+s1824
+i"CXMLDocument_CreationExtensions.h"
+i"CXMLElement.h"
+i"CXMLNode_PrivateExtensions.h"
+i"CXMLDocument_PrivateExtensions.h"
+
+N/Developer/Extra Libraries/TouchXML_1.0.8_Release/TouchXML/Common/Source/Creation/CXMLNode_CreationExtensions.h
+c000000004BD1C1580000000000000954
+t1272037720
+s2388
+i"CXMLNode.h"
+
+N/Developer/Extra Libraries/TouchXML_1.0.8_Release/TouchXML/Common/Source/Creation/CXMLNode_CreationExtensions.m
+c000000004BD1C1580000000000000FE7
+t1272037720
+s4071
+i"CXMLNode_CreationExtensions.h"
+i"CXMLDocument.h"
+i"CXMLElement.h"
+i"CXMLNode_PrivateExtensions.h"
+i"CXMLDocument_PrivateExtensions.h"
+
+N/Developer/Extra Libraries/TouchXML_1.0.8_Release/TouchXML/Common/Source/Tidy/CTidy.h
+c000000004BD1C1580000000000000762
+t1272037720
+s1890
+i<Foundation/Foundation.h>
+i"tidy.h"
+i"buffio.h"
+
+N/Developer/Extra Libraries/TouchXML_1.0.8_Release/TouchXML/Common/Source/Tidy/CTidy.m
+c000000004BD1C1580000000000001D6D
+t1272037720
+s7533
+i"CTidy.h"
+
+N/Developer/Extra Libraries/TouchXML_1.0.8_Release/TouchXML/Common/Source/TouchXML.h
+c000000004BD1C15800000000000005F3
+t1272037720
+s1523
+i"CXMLDocument.h"
+i"CXMLDocument_CreationExtensions.h"
+i"CXMLElement.h"
+i"CXMLElement_CreationExtensions.h"
+i"CXMLElement_ElementTreeExtensions.h"
+i"CXMLNode.h"
+i"CXMLNode_CreationExtensions.h"
+i"CXMLNode_XPathExtensions.h"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/iAd.framework/Headers/ADBannerView.h
+c000000004CC6577500000000000016D1
+t1288066933
+s5841
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/iAd.framework/iAd
+c000000004CC65780000000000002F590
+t1288066944
+s193936
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/Availability.h
+c000000004CB3FA080000000000001ADD
+t1286863368
+s6877
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml/parser.h
+c000000004CC10DA500000000000098A9
+t1287720357
+s39081
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml/tree.h
+c000000004CC10DA50000000000008F14
+t1287720357
+s36628
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml/xmlIO.h
+c000000004CC10DA500000000000028D0
+t1287720357
+s10448
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml/xpath.h
+c000000004CC10DA50000000000003F47
+t1287720357
+s16199
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2/libxml/xpathInternals.h
+c000000004CC10DA50000000000004BF8
+t1287720357
+s19448
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/lib/libxml2.dylib
+c000000004CC10DA50000000000122A50
+t1287720357
+s1190480
+
+N/Users/anurag/Desktop/iad_sample/CXMLDocument.h
+c000000004BD1C1580000000000000A9A
+t1272037720
+s2714
+i"CXMLNode.h"
+
+N/Users/anurag/Desktop/iad_sample/CXMLDocument.m
+c000000004BD1C1580000000000001BF7
+t1272037720
+s7159
+i"CXMLDocument.h"
+i<libxml/parser.h>
+i"CXMLNode_PrivateExtensions.h"
+i"CXMLElement.h"
+i"CTidy.h"
+
+N/Users/anurag/Desktop/iad_sample/CXMLDocument_PrivateExtensions.h
+c000000004BD1C15800000000000005FE
+t1272037720
+s1534
+i"CXMLDocument.h"
+i<libxml/parser.h>
+
+N/Users/anurag/Desktop/iad_sample/CXMLDocument_PrivateExtensions.m
+c000000004BD1C158000000000000067A
+t1272037720
+s1658
+i"CXMLDocument_PrivateExtensions.h"
+
+N/Users/anurag/Desktop/iad_sample/CXMLElement.h
+c000000004BD1C158000000000000078C
+t1272037720
+s1932
+i"CXMLNode.h"
+
+N/Users/anurag/Desktop/iad_sample/CXMLElement.m
+c000000004BD1C158000000000000112F
+t1272037720
+s4399
+i"CXMLElement.h"
+i"CXMLNode_PrivateExtensions.h"
+
+N/Users/anurag/Desktop/iad_sample/CXMLElement_CreationExtensions.h
+c000000004BD1C158000000000000059D
+t1272037720
+s1437
+i"CXMLElement.h"
+
+N/Users/anurag/Desktop/iad_sample/CXMLElement_CreationExtensions.m
+c000000004BD1C1580000000000000850
+t1272037720
+s2128
+i"CXMLElement_CreationExtensions.h"
+
+N/Users/anurag/Desktop/iad_sample/CXMLElement_ElementTreeExtensions.h
+c000000004BD1C1580000000000000580
+t1272037720
+s1408
+i"CXMLElement.h"
+
+N/Users/anurag/Desktop/iad_sample/CXMLElement_ElementTreeExtensions.m
+c000000004BD1C1580000000000000668
+t1272037720
+s1640
+i"CXMLElement_ElementTreeExtensions.h"
+i"CXMLElement_CreationExtensions.h"
+i"CXMLNode_CreationExtensions.h"
+
+N/Users/anurag/Desktop/iad_sample/CXMLNode.h
+c000000004BD1C1580000000000000B07
+t1272037720
+s2823
+i<Foundation/Foundation.h>
+i<libxml/tree.h>
+
+N/Users/anurag/Desktop/iad_sample/CXMLNode.m
+c000000004BD1C1580000000000002257
+t1272037720
+s8791
+i"CXMLNode.h"
+i"CXMLNode_PrivateExtensions.h"
+i"CXMLDocument.h"
+i"CXMLElement.h"
+i<libxml/xpath.h>
+i<libxml/xpathInternals.h>
+i<libxml/xmlIO.h>
+
+N/Users/anurag/Desktop/iad_sample/CXMLNode_PrivateExtensions.h
+c000000004BD1C1580000000000000624
+t1272037720
+s1572
+i"CXMLNode.h"
+
+N/Users/anurag/Desktop/iad_sample/CXMLNode_PrivateExtensions.m
+c000000004BD1C1580000000000000A9F
+t1272037720
+s2719
+i"CXMLNode_PrivateExtensions.h"
+i"CXMLElement.h"
+i"CXMLDocument_PrivateExtensions.h"
+
+N/Users/anurag/Desktop/iad_sample/CXMLNode_XPathExtensions.h
+c000000004BD1C15800000000000005FC
+t1272037720
+s1532
+i"CXMLNode.h"
+
+N/Users/anurag/Desktop/iad_sample/CXMLNode_XPathExtensions.m
+c000000004BD1C1580000000000000B1C
+t1272037720
+s2844
+i"CXMLNode_XPathExtensions.h"
+i"CXMLDocument.h"
+i"CXMLNode_PrivateExtensions.h"
+i<libxml/xpath.h>
+i<libxml/xpathInternals.h>
+
+N/Users/anurag/Desktop/iad_sample/Classes/RootViewController.h
+c000000004D4902B90000000000000215
+t1296630457
+s533
+i<UIKit/UIKit.h>
+i"iAd/ADBannerView.h"
+i"TouchXML.h"
+
+N/Users/anurag/Desktop/iad_sample/Classes/RootViewController.m
+c000000004D493D170000000000001597
+t1296645399
+s5527
+i"RootViewController.h"
+
+N/Users/anurag/Desktop/iad_sample/Classes/iad_sampleAppDelegate.h
+c000000004D479ED000000000000001D4
+t1296539344
+s468
+i<UIKit/UIKit.h>
+
+N/Users/anurag/Desktop/iad_sample/Classes/iad_sampleAppDelegate.m
+c000000004D479ED00000000000000AAB
+t1296539344
+s2731
+i"iad_sampleAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/anurag/Desktop/iad_sample/Creation/CXMLDocument_CreationExtensions.h
+c000000004BD1C1580000000000000814
+t1272037720
+s2068
+i"CXMLDocument.h"
+
+N/Users/anurag/Desktop/iad_sample/Creation/CXMLDocument_CreationExtensions.m
+c000000004BD1C1580000000000000720
+t1272037720
+s1824
+i"CXMLDocument_CreationExtensions.h"
+i"CXMLElement.h"
+i"CXMLNode_PrivateExtensions.h"
+i"CXMLDocument_PrivateExtensions.h"
+
+N/Users/anurag/Desktop/iad_sample/Creation/CXMLNode_CreationExtensions.h
+c000000004BD1C1580000000000000954
+t1272037720
+s2388
+i"CXMLNode.h"
+
+N/Users/anurag/Desktop/iad_sample/Creation/CXMLNode_CreationExtensions.m
+c000000004BD1C1580000000000000FE7
+t1272037720
+s4071
+i"CXMLNode_CreationExtensions.h"
+i"CXMLDocument.h"
+i"CXMLElement.h"
+i"CXMLNode_PrivateExtensions.h"
+i"CXMLDocument_PrivateExtensions.h"
+
+N/Users/anurag/Desktop/iad_sample/MainWindow.xib
+c000000004D479ED00000000000006000
+t1296539344
+s24576
+
+N/Users/anurag/Desktop/iad_sample/RootViewController.xib
+c000000004D49018400000000000042CD
+t1296630148
+s17101
+
+N/Users/anurag/Desktop/iad_sample/Tidy/CTidy.h
+c000000004BD1C1580000000000000762
+t1272037720
+s1890
+i<Foundation/Foundation.h>
+i"tidy.h"
+i"buffio.h"
+
+N/Users/anurag/Desktop/iad_sample/Tidy/CTidy.m
+c000000004BD1C1580000000000001D6D
+t1272037720
+s7533
+i"CTidy.h"
+
+N/Users/anurag/Desktop/iad_sample/TouchXML.h
+c000000004BD1C15800000000000005F3
+t1272037720
+s1523
+i"CXMLDocument.h"
+i"CXMLDocument_CreationExtensions.h"
+i"CXMLElement.h"
+i"CXMLElement_CreationExtensions.h"
+i"CXMLElement_ElementTreeExtensions.h"
+i"CXMLNode.h"
+i"CXMLNode_CreationExtensions.h"
+i"CXMLNode_XPathExtensions.h"
+
+N/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/iad_sample.app
+t1296645401
+s238
+
+N/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/iad_sample.app.dSYM
+t1296645401
+s102
+
+N/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/iad_sample.app/Info.plist
+t1296630571
+s603
+
+N/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/iad_sample.app/MainWindow.nib
+t1296630571
+s1512
+
+N/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/iad_sample.app/PkgInfo
+t1296630571
+s8
+
+N/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/iad_sample.app/RootViewController.nib
+t1296630571
+s907
+
+N/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/iad_sample.app/iad_sample
+t1296645401
+s63792
+
+N/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CTidy.o
+t1296630573
+s3904
+
+N/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLDocument.o
+t1296630573
+s25204
+
+N/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLDocument_CreationExtensions.o
+t1296630572
+s10684
+
+N/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLDocument_PrivateExtensions.o
+t1296630573
+s9648
+
+N/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLElement.o
+t1296630573
+s13996
+
+N/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLElement_CreationExtensions.o
+t1296630573
+s13168
+
+N/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLElement_ElementTreeExtensions.o
+t1296630573
+s9404
+
+N/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLNode.o
+t1296630573
+s38664
+
+N/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLNode_CreationExtensions.o
+t1296630573
+s18796
+
+N/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLNode_PrivateExtensions.o
+t1296630573
+s14260
+
+N/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLNode_XPathExtensions.o
+t1296630573
+s16844
+
+N/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/RootViewController.o
+t1296645401
+s55048
+
+N/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/iad_sample.LinkFileList
+c000000004D490534000000000000078C
+t1296631092
+s1932
+
+N/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/iad_sampleAppDelegate.o
+t1296645401
+s52752
+
+N/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/main.o
+t1296645401
+s6292
+
+N/Users/anurag/Desktop/iad_sample/iad_sample_Prefix.pch
+c000000004D479ED00000000000000146
+t1296539344
+s326
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/anurag/Desktop/iad_sample/main.m
+c000000004D479ED00000000000000164
+t1296539344
+s356
+i<UIKit/UIKit.h>
+
+N/usr/include/libxml2/libxml/parser.h
+c000000004AB82E0D00000000000098A9
+t1253584397
+s39081
+
+N/usr/include/libxml2/libxml/tree.h
+c000000004AB82E0D0000000000008F14
+t1253584397
+s36628
+
+N/usr/include/libxml2/libxml/xmlIO.h
+c000000004AB82E0E00000000000028D0
+t1253584398
+s10448
+
+N/usr/include/libxml2/libxml/xpath.h
+c000000004AB82E0D0000000000003F47
+t1253584397
+s16199
+
+N/usr/include/libxml2/libxml/xpathInternals.h
+c000000004AB82E0D0000000000004BF8
+t1253584397
+s19448
+
+N/var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iad_sample_Prefix-bnfizvlxkbepoifljxiioaxznxin/iad_sample_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iad_sample_Prefix-bthyubhchcwfvachgjwddfmjjkyg/iad_sample_Prefix.pch.gch
+t1296540652
+s15453392
+
+N/var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iad_sample_Prefix-dkolemrbxbseotaldiksyhwepvod/iad_sample_Prefix.pch.gch
+t1296645400
+s15453392
+
+N/var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iad_sample_Prefix-ezfsqgghmdfubqfjfpolwtblhjhy/iad_sample_Prefix.pch.gch
+t1296630198
+s15453392
+
+N/var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iad_sample_Prefix-fosxefqignxevxcljuqifmjipvnz/iad_sample_Prefix.pch.gch
+t2
+s0
+
+Niad_sample-Info.plist
+c000000004D479ED0000000000000038D
+t1296539344
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies318338199#318338200#0(0"0(0#1#0"8655990880#0"0#
+
+CCompileC build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CTidy.o "/Developer/Extra Libraries/TouchXML_1.0.8_Release/TouchXML/Common/Source/Tidy/CTidy.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CTidy.o /Users/anurag/Desktop/iad_sample/Tidy/CTidy.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318323373.576072
+e318323373.647689
+r1
+xCompileC
+xbuild/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CTidy.o
+x/Users/anurag/Desktop/iad_sample/Tidy/CTidy.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/anurag/Desktop/iad_sample/Tidy/CTidy.m318323373#318323373#0(0"0(0#0#45"/Users/anurag/Desktop/iad_sample/Tidy/CTidy.m8626041632#1968"    cd /Users/anurag/Desktop/iad_sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-generated-files.hmap -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-own-target-headers.hmap -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-all-target-headers.hmap -iquote /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-project-headers.hmap -F/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator -I/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/DerivedSources/i386 -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/DerivedSources -include /var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iad_sample_Prefix-dkolemrbxbseotaldiksyhwepvod/iad_sample_Prefix.pch -c /Users/anurag/Desktop/iad_sample/Tidy/CTidy.m -o /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CTidy.o0#
+
+CCompileC build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLDocument.o "/Developer/Extra Libraries/TouchXML_1.0.8_Release/TouchXML/Common/Source/CXMLDocument.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLDocument.o /Users/anurag/Desktop/iad_sample/CXMLDocument.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318323373.108387
+e318323373.283642
+r1
+xCompileC
+xbuild/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLDocument.o
+x/Users/anurag/Desktop/iad_sample/CXMLDocument.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/anurag/Desktop/iad_sample/CXMLDocument.m: In function '-[CXMLDocument XMLStringWithOptions:]':
+o/Users/anurag/Desktop/iad_sample/CXMLDocument.m:229: warning: no '-_XMLStringWithOptions:appendingToString:' method found
+o/Users/anurag/Desktop/iad_sample/CXMLDocument.m:229: warning: (Messages without a matching method signature
+o/Users/anurag/Desktop/iad_sample/CXMLDocument.m:229: warning: will be assumed to return 'id' and accept
+o/Users/anurag/Desktop/iad_sample/CXMLDocument.m:229: warning: '...' as arguments.)
+lSLF07#2@55"Compile /Users/anurag/Desktop/iad_sample/CXMLDocument.m318323373#318323373#0(519"/Users/anurag/Desktop/iad_sample/CXMLDocument.m: In function '-[CXMLDocument XMLStringWithOptions:]':/Users/anurag/Desktop/iad_sample/CXMLDocument.m:229: warning: no '-_XMLStringWithOptions:appendingToString:' method found/Users/anurag/Desktop/iad_sample/CXMLDocument.m:229: warning: (Messages without a matching method signature/Users/anurag/Desktop/iad_sample/CXMLDocument.m:229: warning: will be assumed to return 'id' and accept/Users/anurag/Desktop/iad_sample/CXMLDocument.m:229: warning: '...' as arguments.)2(22@59"No '-_XMLStringWithOptions:appendingToString:' method found318323373#102#122#0(6@47"/Users/anurag/Desktop/iad_sample/CXMLDocument.m293730520#229#0#229#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)318323373#224#108#0(6@47"/Users/anurag/Desktop/iad_sample/CXMLDocument.m293730520#229#0#229#0#0"0(0#0#47"/Users/anurag/Desktop/iad_sample/CXMLDocument.m8621594848#1977"    cd /Users/anurag/Desktop/iad_sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-generated-files.hmap -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-own-target-headers.hmap -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-all-target-headers.hmap -iquote /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-project-headers.hmap -F/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator -I/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/DerivedSources/i386 -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/DerivedSources -include /var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iad_sample_Prefix-dkolemrbxbseotaldiksyhwepvod/iad_sample_Prefix.pch -c /Users/anurag/Desktop/iad_sample/CXMLDocument.m -o /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLDocument.o0#
+
+CCompileC build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLDocument_CreationExtensions.o "/Developer/Extra Libraries/TouchXML_1.0.8_Release/TouchXML/Common/Source/Creation/CXMLDocument_CreationExtensions.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLDocument_CreationExtensions.o /Users/anurag/Desktop/iad_sample/Creation/CXMLDocument_CreationExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318323372.906851
+e318323373.004384
+r1
+xCompileC
+xbuild/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLDocument_CreationExtensions.o
+x/Users/anurag/Desktop/iad_sample/Creation/CXMLDocument_CreationExtensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/anurag/Desktop/iad_sample/Creation/CXMLDocument_CreationExtensions.m318323372#318323373#0(0"0(0#0#75"/Users/anurag/Desktop/iad_sample/Creation/CXMLDocument_CreationExtensions.m8631771904#2024"    cd /Users/anurag/Desktop/iad_sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-generated-files.hmap -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-own-target-headers.hmap -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-all-target-headers.hmap -iquote /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-project-headers.hmap -F/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator -I/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/DerivedSources/i386 -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/DerivedSources -include /var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iad_sample_Prefix-dkolemrbxbseotaldiksyhwepvod/iad_sample_Prefix.pch -c /Users/anurag/Desktop/iad_sample/Creation/CXMLDocument_CreationExtensions.m -o /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLDocument_CreationExtensions.o0#
+
+CCompileC build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLDocument_PrivateExtensions.o "/Developer/Extra Libraries/TouchXML_1.0.8_Release/TouchXML/Common/Source/CXMLDocument_PrivateExtensions.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLDocument_PrivateExtensions.o /Users/anurag/Desktop/iad_sample/CXMLDocument_PrivateExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318323373.004490
+e318323373.108282
+r1
+xCompileC
+xbuild/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLDocument_PrivateExtensions.o
+x/Users/anurag/Desktop/iad_sample/CXMLDocument_PrivateExtensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/anurag/Desktop/iad_sample/CXMLDocument_PrivateExtensions.m318323373#318323373#0(0"0(0#0#65"/Users/anurag/Desktop/iad_sample/CXMLDocument_PrivateExtensions.m8624488224#2013"    cd /Users/anurag/Desktop/iad_sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-generated-files.hmap -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-own-target-headers.hmap -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-all-target-headers.hmap -iquote /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-project-headers.hmap -F/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator -I/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/DerivedSources/i386 -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/DerivedSources -include /var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iad_sample_Prefix-dkolemrbxbseotaldiksyhwepvod/iad_sample_Prefix.pch -c /Users/anurag/Desktop/iad_sample/CXMLDocument_PrivateExtensions.m -o /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLDocument_PrivateExtensions.o0#
+
+CCompileC build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLElement.o "/Developer/Extra Libraries/TouchXML_1.0.8_Release/TouchXML/Common/Source/CXMLElement.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLElement.o /Users/anurag/Desktop/iad_sample/CXMLElement.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318323373.283743
+e318323373.387038
+r1
+xCompileC
+xbuild/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLElement.o
+x/Users/anurag/Desktop/iad_sample/CXMLElement.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/anurag/Desktop/iad_sample/CXMLElement.m318323373#318323373#0(0"0(0#0#46"/Users/anurag/Desktop/iad_sample/CXMLElement.m8635808928#1975"    cd /Users/anurag/Desktop/iad_sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-generated-files.hmap -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-own-target-headers.hmap -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-all-target-headers.hmap -iquote /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-project-headers.hmap -F/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator -I/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/DerivedSources/i386 -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/DerivedSources -include /var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iad_sample_Prefix-dkolemrbxbseotaldiksyhwepvod/iad_sample_Prefix.pch -c /Users/anurag/Desktop/iad_sample/CXMLElement.m -o /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLElement.o0#
+
+CCompileC build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLElement_CreationExtensions.o "/Developer/Extra Libraries/TouchXML_1.0.8_Release/TouchXML/Common/Source/CXMLElement_CreationExtensions.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLElement_CreationExtensions.o /Users/anurag/Desktop/iad_sample/CXMLElement_CreationExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318323373.137982
+e318323373.235973
+r1
+xCompileC
+xbuild/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLElement_CreationExtensions.o
+x/Users/anurag/Desktop/iad_sample/CXMLElement_CreationExtensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/anurag/Desktop/iad_sample/CXMLElement_CreationExtensions.m318323373#318323373#0(0"0(0#0#65"/Users/anurag/Desktop/iad_sample/CXMLElement_CreationExtensions.m8611603584#2013"    cd /Users/anurag/Desktop/iad_sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-generated-files.hmap -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-own-target-headers.hmap -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-all-target-headers.hmap -iquote /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-project-headers.hmap -F/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator -I/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/DerivedSources/i386 -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/DerivedSources -include /var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iad_sample_Prefix-dkolemrbxbseotaldiksyhwepvod/iad_sample_Prefix.pch -c /Users/anurag/Desktop/iad_sample/CXMLElement_CreationExtensions.m -o /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLElement_CreationExtensions.o0#
+
+CCompileC build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLElement_ElementTreeExtensions.o "/Developer/Extra Libraries/TouchXML_1.0.8_Release/TouchXML/Common/Source/CXMLElement_ElementTreeExtensions.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLElement_ElementTreeExtensions.o /Users/anurag/Desktop/iad_sample/CXMLElement_ElementTreeExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318323373.236084
+e318323373.352227
+r1
+xCompileC
+xbuild/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLElement_ElementTreeExtensions.o
+x/Users/anurag/Desktop/iad_sample/CXMLElement_ElementTreeExtensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/anurag/Desktop/iad_sample/CXMLElement_ElementTreeExtensions.m318323373#318323373#0(0"0(0#0#68"/Users/anurag/Desktop/iad_sample/CXMLElement_ElementTreeExtensions.m8633410944#2019"    cd /Users/anurag/Desktop/iad_sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-generated-files.hmap -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-own-target-headers.hmap -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-all-target-headers.hmap -iquote /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-project-headers.hmap -F/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator -I/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/DerivedSources/i386 -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/DerivedSources -include /var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iad_sample_Prefix-dkolemrbxbseotaldiksyhwepvod/iad_sample_Prefix.pch -c /Users/anurag/Desktop/iad_sample/CXMLElement_ElementTreeExtensions.m -o /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLElement_ElementTreeExtensions.o0#
+
+CCompileC build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLNode.o "/Developer/Extra Libraries/TouchXML_1.0.8_Release/TouchXML/Common/Source/CXMLNode.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLNode.o /Users/anurag/Desktop/iad_sample/CXMLNode.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318323373.548465
+e318323373.732313
+r1
+xCompileC
+xbuild/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLNode.o
+x/Users/anurag/Desktop/iad_sample/CXMLNode.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/anurag/Desktop/iad_sample/CXMLNode.m318323373#318323373#0(0"0(0#0#43"/Users/anurag/Desktop/iad_sample/CXMLNode.m8630740288#1969"    cd /Users/anurag/Desktop/iad_sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-generated-files.hmap -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-own-target-headers.hmap -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-all-target-headers.hmap -iquote /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-project-headers.hmap -F/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator -I/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/DerivedSources/i386 -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/DerivedSources -include /var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iad_sample_Prefix-dkolemrbxbseotaldiksyhwepvod/iad_sample_Prefix.pch -c /Users/anurag/Desktop/iad_sample/CXMLNode.m -o /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLNode.o0#
+
+CCompileC build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLNode_CreationExtensions.o "/Developer/Extra Libraries/TouchXML_1.0.8_Release/TouchXML/Common/Source/Creation/CXMLNode_CreationExtensions.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLNode_CreationExtensions.o /Users/anurag/Desktop/iad_sample/Creation/CXMLNode_CreationExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318323372.992236
+e318323373.137878
+r1
+xCompileC
+xbuild/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLNode_CreationExtensions.o
+x/Users/anurag/Desktop/iad_sample/Creation/CXMLNode_CreationExtensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/anurag/Desktop/iad_sample/Creation/CXMLNode_CreationExtensions.m318323372#318323373#0(0"0(0#0#71"/Users/anurag/Desktop/iad_sample/Creation/CXMLNode_CreationExtensions.m8630265568#2016"    cd /Users/anurag/Desktop/iad_sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-generated-files.hmap -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-own-target-headers.hmap -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-all-target-headers.hmap -iquote /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-project-headers.hmap -F/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator -I/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/DerivedSources/i386 -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/DerivedSources -include /var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iad_sample_Prefix-dkolemrbxbseotaldiksyhwepvod/iad_sample_Prefix.pch -c /Users/anurag/Desktop/iad_sample/Creation/CXMLNode_CreationExtensions.m -o /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLNode_CreationExtensions.o0#
+
+CCompileC build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLNode_PrivateExtensions.o "/Developer/Extra Libraries/TouchXML_1.0.8_Release/TouchXML/Common/Source/CXMLNode_PrivateExtensions.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLNode_PrivateExtensions.o /Users/anurag/Desktop/iad_sample/CXMLNode_PrivateExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318323373.352330
+e318323373.548161
+r1
+xCompileC
+xbuild/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLNode_PrivateExtensions.o
+x/Users/anurag/Desktop/iad_sample/CXMLNode_PrivateExtensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/anurag/Desktop/iad_sample/CXMLNode_PrivateExtensions.m318323373#318323373#0(0"0(0#0#61"/Users/anurag/Desktop/iad_sample/CXMLNode_PrivateExtensions.m8634411872#2005"    cd /Users/anurag/Desktop/iad_sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-generated-files.hmap -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-own-target-headers.hmap -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-all-target-headers.hmap -iquote /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-project-headers.hmap -F/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator -I/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/DerivedSources/i386 -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/DerivedSources -include /var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iad_sample_Prefix-dkolemrbxbseotaldiksyhwepvod/iad_sample_Prefix.pch -c /Users/anurag/Desktop/iad_sample/CXMLNode_PrivateExtensions.m -o /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLNode_PrivateExtensions.o0#
+
+CCompileC build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLNode_XPathExtensions.o "/Developer/Extra Libraries/TouchXML_1.0.8_Release/TouchXML/Common/Source/CXMLNode_XPathExtensions.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLNode_XPathExtensions.o /Users/anurag/Desktop/iad_sample/CXMLNode_XPathExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318323373.387138
+e318323373.575968
+r1
+xCompileC
+xbuild/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLNode_XPathExtensions.o
+x/Users/anurag/Desktop/iad_sample/CXMLNode_XPathExtensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/anurag/Desktop/iad_sample/CXMLNode_XPathExtensions.m318323373#318323373#0(0"0(0#0#59"/Users/anurag/Desktop/iad_sample/CXMLNode_XPathExtensions.m8633341280#2001"    cd /Users/anurag/Desktop/iad_sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-generated-files.hmap -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-own-target-headers.hmap -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-all-target-headers.hmap -iquote /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-project-headers.hmap -F/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator -I/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/DerivedSources/i386 -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/DerivedSources -include /var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iad_sample_Prefix-dkolemrbxbseotaldiksyhwepvod/iad_sample_Prefix.pch -c /Users/anurag/Desktop/iad_sample/CXMLNode_XPathExtensions.m -o /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/CXMLNode_XPathExtensions.o0#
+
+CCompileC build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/RootViewController.o /Users/anurag/Desktop/iad_sample/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318338201.138709
+e318338201.366467
+r1
+xCompileC
+xbuild/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/RootViewController.o
+x/Users/anurag/Desktop/iad_sample/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/anurag/Desktop/iad_sample/Classes/RootViewController.m318338201#318338201#0(0"0(0#0#61"/Users/anurag/Desktop/iad_sample/Classes/RootViewController.m8648262720#1997"    cd /Users/anurag/Desktop/iad_sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-generated-files.hmap -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-own-target-headers.hmap -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-all-target-headers.hmap -iquote /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-project-headers.hmap -F/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator -I/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/DerivedSources/i386 -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/DerivedSources -include /var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iad_sample_Prefix-dkolemrbxbseotaldiksyhwepvod/iad_sample_Prefix.pch -c /Users/anurag/Desktop/iad_sample/Classes/RootViewController.m -o /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/RootViewController.o0#
+
+CCompileC build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/iad_sampleAppDelegate.o /Users/anurag/Desktop/iad_sample/Classes/iad_sampleAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318338201.079702
+e318338201.307774
+r1
+xCompileC
+xbuild/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/iad_sampleAppDelegate.o
+x/Users/anurag/Desktop/iad_sample/Classes/iad_sampleAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/anurag/Desktop/iad_sample/Classes/iad_sampleAppDelegate.m318338201#318338201#0(0"0(0#0#64"/Users/anurag/Desktop/iad_sample/Classes/iad_sampleAppDelegate.m8652298240#2003"    cd /Users/anurag/Desktop/iad_sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-generated-files.hmap -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-own-target-headers.hmap -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-all-target-headers.hmap -iquote /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-project-headers.hmap -F/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator -I/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/DerivedSources/i386 -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/DerivedSources -include /var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iad_sample_Prefix-dkolemrbxbseotaldiksyhwepvod/iad_sample_Prefix.pch -c /Users/anurag/Desktop/iad_sample/Classes/iad_sampleAppDelegate.m -o /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/iad_sampleAppDelegate.o0#
+
+CCompileC build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/main.o /Users/anurag/Desktop/iad_sample/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318338201.078601
+e318338201.138605
+r1
+xCompileC
+xbuild/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/main.o
+x/Users/anurag/Desktop/iad_sample/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/anurag/Desktop/iad_sample/main.m318338201#318338201#0(0"0(0#0#39"/Users/anurag/Desktop/iad_sample/main.m8655400064#1961"    cd /Users/anurag/Desktop/iad_sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-generated-files.hmap -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-own-target-headers.hmap -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-all-target-headers.hmap -iquote /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-project-headers.hmap -F/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator -I/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/DerivedSources/i386 -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/DerivedSources -include /var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iad_sample_Prefix-dkolemrbxbseotaldiksyhwepvod/iad_sample_Prefix.pch -c /Users/anurag/Desktop/iad_sample/main.m -o /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/anurag/Desktop/iad_sample/MainWindow.xib
+s318323371.350567
+e318323371.810623
+r1
+xCompileXIB
+x/Users/anurag/Desktop/iad_sample/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib318323371#318323371#0(0"0(0#0#47"/Users/anurag/Desktop/iad_sample/MainWindow.xib8631511296#555"    cd /Users/anurag/Desktop/iad_sample    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/iad_sample.app/MainWindow.nib /Users/anurag/Desktop/iad_sample/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/anurag/Desktop/iad_sample/RootViewController.xib
+s318323371.351293
+e318323371.801403
+r1
+xCompileXIB
+x/Users/anurag/Desktop/iad_sample/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib318323371#318323371#0(0"0(0#0#55"/Users/anurag/Desktop/iad_sample/RootViewController.xib8631203360#571"    cd /Users/anurag/Desktop/iad_sample    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/iad_sample.app/RootViewController.nib /Users/anurag/Desktop/iad_sample/RootViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CGenerateDSYMFile /Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/iad_sample.app.dSYM /Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/iad_sample.app/iad_sample
+s318338201.429133
+e318338201.482844
+r1
+xGenerateDSYMFile
+x/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/iad_sample.app.dSYM
+x/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/iad_sample.app/iad_sample
+lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/iad_sample.app.dSYM build/Debug-iphonesimulator/iad_sample.app/iad_sample318338201#318338201#0(0"0(0#0#86"/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/iad_sample.app/iad_sample8626621440#374"    cd /Users/anurag/Desktop/iad_sample    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/iad_sample.app/iad_sample -o /Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/iad_sample.app.dSYM0#
+
+CLd /Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/iad_sample.app/iad_sample normal i386
+s318338201.366581
+e318338201.429025
+r1
+xLd
+x/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/iad_sample.app/iad_sample
+xnormal
+xi386
+lSLF07#2@91"Link /Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/iad_sample.app/iad_sample318338201#318338201#0(0"0(0#0#0"8655844960#927"    cd /Users/anurag/Desktop/iad_sample    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator -F/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator -filelist /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/Objects-normal/i386/iad_sample.LinkFileList -mmacosx-version-min=10.6 -weak_framework iAd -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework iAd -lxml2 -o /Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/iad_sample.app/iad_sample0#
+
+CProcessInfoPlistFile /Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/iad_sample.app/Info.plist iad_sample-Info.plist
+s318323371.347523
+e318323371.350494
+r1
+xProcessInfoPlistFile
+x/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/iad_sample.app/Info.plist
+xiad_sample-Info.plist
+lSLF07#2@29"Process iad_sample-Info.plist318323371#318323371#0(0"0(0#0#54"/Users/anurag/Desktop/iad_sample/iad_sample-Info.plist8632380832#470"    cd /Users/anurag/Desktop/iad_sample    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility iad_sample-Info.plist -genpkginfo /Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/iad_sample.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/iad_sample.app/Info.plist0#
+
+CProcessPCH /var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iad_sample_Prefix-bnfizvlxkbepoifljxiioaxznxin/iad_sample_Prefix.pch.gch iad_sample_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iad_sample_Prefix-bthyubhchcwfvachgjwddfmjjkyg/iad_sample_Prefix.pch.gch iad_sample_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s318233452.008299
+e318233452.970100
+r1
+xProcessPCH
+x/var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iad_sample_Prefix-bthyubhchcwfvachgjwddfmjjkyg/iad_sample_Prefix.pch.gch
+xiad_sample_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile iad_sample_Prefix.pch318233452#318233452#0(0"0(0#0#54"/Users/anurag/Desktop/iad_sample/iad_sample_Prefix.pch8620528512#1803"    cd /Users/anurag/Desktop/iad_sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-generated-files.hmap -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-own-target-headers.hmap -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-all-target-headers.hmap -iquote /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-project-headers.hmap -F/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator -I/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/include -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/DerivedSources/i386 -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/DerivedSources -c /Users/anurag/Desktop/iad_sample/iad_sample_Prefix.pch -o /var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iad_sample_Prefix-bthyubhchcwfvachgjwddfmjjkyg/iad_sample_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iad_sample_Prefix-dkolemrbxbseotaldiksyhwepvod/iad_sample_Prefix.pch.gch iad_sample_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s318338200.023343
+e318338201.078496
+r1
+xProcessPCH
+x/var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iad_sample_Prefix-dkolemrbxbseotaldiksyhwepvod/iad_sample_Prefix.pch.gch
+xiad_sample_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile iad_sample_Prefix.pch318338200#318338201#0(0"0(0#0#54"/Users/anurag/Desktop/iad_sample/iad_sample_Prefix.pch8647170912#1856"    cd /Users/anurag/Desktop/iad_sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-generated-files.hmap -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-own-target-headers.hmap -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-all-target-headers.hmap -iquote /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-project-headers.hmap -F/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator -I/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/DerivedSources/i386 -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/DerivedSources -c /Users/anurag/Desktop/iad_sample/iad_sample_Prefix.pch -o /var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iad_sample_Prefix-dkolemrbxbseotaldiksyhwepvod/iad_sample_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iad_sample_Prefix-ezfsqgghmdfubqfjfpolwtblhjhy/iad_sample_Prefix.pch.gch iad_sample_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s318322997.163377
+e318322998.421586
+r1
+xProcessPCH
+x/var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iad_sample_Prefix-ezfsqgghmdfubqfjfpolwtblhjhy/iad_sample_Prefix.pch.gch
+xiad_sample_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile iad_sample_Prefix.pch318322997#318322998#0(0"0(0#0#54"/Users/anurag/Desktop/iad_sample/iad_sample_Prefix.pch8631248768#1909"    cd /Users/anurag/Desktop/iad_sample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-generated-files.hmap -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-own-target-headers.hmap -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-all-target-headers.hmap -iquote /Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/iad_sample-project-headers.hmap -F/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator -I/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libxml2 -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/DerivedSources/i386 -I/Users/anurag/Desktop/iad_sample/build/iad_sample.build/Debug-iphonesimulator/iad_sample.build/DerivedSources -c /Users/anurag/Desktop/iad_sample/iad_sample_Prefix.pch -o /var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iad_sample_Prefix-ezfsqgghmdfubqfjfpolwtblhjhy/iad_sample_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/tv/tvnqLcfEGUSuRp0CDjKcpk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iad_sample_Prefix-fosxefqignxevxcljuqifmjipvnz/iad_sample_Prefix.pch.gch iad_sample_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch /Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/iad_sample.app
+s318338201.482937
+e318338201.485665
+r1
+xTouch
+x/Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/iad_sample.app
+lSLF07#2@81"Touch /Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/iad_sample.app318338201#318338201#0(0"0(0#0#0"8624243904#269"    cd /Users/anurag/Desktop/iad_sample    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/anurag/Desktop/iad_sample/build/Debug-iphonesimulator/iad_sample.app0#
+
